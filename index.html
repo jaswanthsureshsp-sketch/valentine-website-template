@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>For My Valentine ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+<div id="lockScreen" class="lock-screen">
+    <div class="lock-box">
+        <h2>For You Only ❤️</h2>
+        <p>Enter our secret password</p>
+        <input type="password" id="passwordInput" placeholder="Password..." />
+        <button onclick="unlockSite()">Unlock 💘</button>
+        <p id="errorMsg" class="error"></p>
+    </div>
+</div>
+
+
+
+<div class="stars"></div>
+<div class="twinkle"></div>
+
+<audio id="bgMusic" src="Osthe - Pondatti Tamil Video  STR, Thaman.mp3" loop></audio>
+
+
+<div id="intro" class="screen active">
+    <h1 class="fade-text">Every love story has a moment...</h1>
+    <h2 class="fade-text delay">This is ours.</h2>
+</div>
+
+<div id="proposal" class="screen">
+    <h1 class="proposal-text">Will you be my forever Valentine lam keka mate, you should be my valentine epome right ? ❤️</h1>
+    <p id="funnyMsg" class="funny"></p>
+
+    <div class="btn-group">
+        <button id="yesBtn" class="yes">YES 😁</button>
+        <button id="noBtn" class="no">NO 😭</button>
+    </div>
+</div>
+
+
+<div id="magic" class="screen">
+    <div class="sparkles"></div>
+</div>
+
+
+<div id="giftScreen" class="screen">
+    <div class="box-wrapper">
+
+        <div class="chocolate-bar" id="chocolate" onclick="transformToBubbly()">
+            <div class="wrapper-label" id="label">Dairy Milk</div>
+            <div class="bubbles-container" id="bubbles"></div>
+        </div>
+
+        <div class="box">
+            <div class="box-lid"></div>
+        </div>
+    </div>
+
+    <div id="message" class="hidden-message">
+        You're my sweetest treat 🍫✨
+    </div>
+</div>
+
+
+<div id="letterScreen" class="screen">
+    <div class="letter-box">
+        <h2>To My Thoothukudi Elavarasi😘 SP oru visyam solanuma keela paru 🫶🏼</h2>
+        <p id="typedLetter"></p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
