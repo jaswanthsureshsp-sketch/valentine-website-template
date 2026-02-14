@@ -89,7 +89,7 @@ noBtn.onclick = () => {
         "I will cry 🥺",
         "I will cry harder 😭",
         "I will cry more harder 💔",
-        "I heart blast aga poguthu yes kudu chello"
+        "My heart is going to blast"
     ];
     funnyMsg.textContent = msgs[Math.min(noCount-1, msgs.length-1)];
     yesBtn.style.transform = `scale(${1 + noCount * 0.2})`;
@@ -120,10 +120,10 @@ function startHeartRain() {
 }
 
 
-const letterText = `  I love you..........'
+const letterText = ` your message here'
 
                     
-Your's SP`;
+Your's forever`;
 
 
 function typeLetter(text, el) {
