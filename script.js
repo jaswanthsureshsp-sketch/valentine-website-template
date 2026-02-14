@@ -17,7 +17,7 @@ let noCount = 0;
 let musicStarted = false;
 
 
-const correctPassword = "Your Sp's wife!"; 
+const correctPassword = "Love you"; 
 
 function unlockSite() {
     const input = document.getElementById("passwordInput").value;
@@ -86,10 +86,10 @@ function startIntroFlow() {
 noBtn.onclick = () => {
     noCount++;
     const msgs = [
-        "SP will cry 🥺",
-        "SP will cry harder 😭",
-        "SP will cry more harder 💔",
-        "SP heart blast aga poguthu yes kudu chello"
+        "I will cry 🥺",
+        "I will cry harder 😭",
+        "I will cry more harder 💔",
+        "I heart blast aga poguthu yes kudu chello"
     ];
     funnyMsg.textContent = msgs[Math.min(noCount-1, msgs.length-1)];
     yesBtn.style.transform = `scale(${1 + noCount * 0.2})`;
@@ -120,8 +120,7 @@ function startHeartRain() {
 }
 
 
-const letterText = `Santu I🥺 apologize really to you una vitu ponathuku na apdi pani iruka kudathu ma🤌💔, avlo dha ne poita ithuku apro ne enaku kedaikka mata nu accept panikute papa but unna pathi nenaikadha day ey kedaiythu my girl😭!. after few years ne enaku again kedaipanu nan except ey panala chelllo🥺 ipo enaku kedachi iruka intha vaati unna na unna vidratha ila ena nadanthalum yaar thaduthalum nan unna dha marriage panuven chello. enaku theryum papa ne romba overthink pandra🫂nuu but flow la po ma ethuvum yosikadha na iruken unaku edhum aga vda mate unaku🥺 epavum, life fulla unkuda irukanum unkuda matum vazhanum nu romba asaiya iruku d😭 pls enna nadanthalum ne kuda iruuu🫴🏻 unna romba happya pathupen. ne azha modhu onuila ma na iruken nu soluven🥺🧞‍♂️, unaku odambu seriiladha modhu unaku sapadu oti vitu kudave irunthu pathupen🫀🥄, unaku enkita pesa mood ilaya soluu na wait pandren but ana apro ena achu nu enkita solu na again adha pathi pesa maaten ladduuu💗, ne yara parthum bayapadakudathu na unkuda irundhalum seri ilanalum seri but unaku onnuna na epome vanthu nipen🤍, ne inum enkannuku na 9th la patha santra mariye azhaga theriyura theriyuma unna enkau avlo pudikum d 😭en ney thrla unna evlo pudichi irukunuuu💋. "en kadhal👩‍❤️‍👨 map la kichivachi codula evan vanthalum na seinjitu ulla poven daaa😅😼" "appa kita solama va atam podalaaam😂, amma kita solama va abscond agalam🤪😘" """" Na Vare inum konja naal dha nalla officer agitu straight ah vanthu pesi appa + amma oda blessing oda unna kutitu pore apdiye namba jesvaan ah verupu ethuvum😂 """ 
-                           nalla kanavana pola irupen oru uthapan pola nadapen unna daily nanum rasipen 💗sweetieee i love you d my hot pondati🥵 till your😘 patti enaku theva ila vapati.
+const letterText = `  I love you..........'
 
                     
 Your's SP`;
